@@ -15,6 +15,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
+# Disable guest account
+#defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -bool NO
+#defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server AllowGuestAccess -bool NO
+
 ###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
@@ -48,7 +52,7 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 
 # Restart automatically if the computer freezes
 systemsetup -setrestartfreeze on
