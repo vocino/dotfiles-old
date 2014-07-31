@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if test ! $(which )
+if test ! $(which chruby)
 then
   echo "  Installing chruby for you."
   brew install chruby > /tmp/chruby_install.log
