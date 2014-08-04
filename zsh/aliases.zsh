@@ -15,3 +15,5 @@ alias cd..='cd ..'
 alias ..='cd ..'
 alias spec='spec -c'
 alias heroku='nocorrect heroku'
+
+alias nogems!='for i in `gem list --no-versions`; do gem uninstall -aIx $i; done'
