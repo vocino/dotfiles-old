@@ -55,6 +55,9 @@ get_bundle tpope vim-vividchalk
 get_bundle vim-scripts bufexplorer.zip
 get_bundle vim-scripts bufkill.vim
 
+# JSX for React
+get_bundle mxw vim-jsx
+
 # navigation
 get_bundle shougo unite.vim
 get_bundle scrooloose nerdtree
