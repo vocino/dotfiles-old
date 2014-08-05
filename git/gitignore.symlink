@@ -20,5 +20,6 @@
 .svn
 /*.tmproj
 /nbproject/
+/vendor/
 tags
 tmp
