@@ -66,7 +66,6 @@ get_bundle scrooloose nerdtree
 
 # vanity
 get_bundle bling vim-airline
-get_bundle zenorocha dracula-theme
 
 # git
 get_bundle airblade vim-gitgutter
