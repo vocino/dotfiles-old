@@ -60,10 +60,15 @@ get_bundle mxw vim-jsx
 
 # navigation
 get_bundle shougo unite.vim
+get_bundle shougo vimproc.vim
+get_bundle shougo neomru.vim
 get_bundle scrooloose nerdtree
 
 # vanity
 get_bundle bling vim-airline
 get_bundle zenorocha dracula-theme
+
+# git
+get_bundle airblade vim-gitgutter
 
 vim -c 'call pathogen#helptags()|q'
