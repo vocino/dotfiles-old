@@ -4,6 +4,8 @@ if exists('g:loaded_pathogen')
 endif
 
 syntax on
+colorscheme dracula
+
 filetype plugin indent on
 
 set number
@@ -18,9 +20,9 @@ set splitbelow
 
 set hidden
 
-set guifont=Monaco:h16
+set guifont=Source_Code_Pro
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
-set shell=bash
+set shell=zsh
 
 augroup vimrc
   autocmd!
