@@ -4,7 +4,6 @@ if exists('g:loaded_pathogen')
 endif
 
 syntax on
-colorscheme dracula
 
 filetype plugin indent on
 
