@@ -1,0 +1,8 @@
+[core]
+	editor = vim
+	excludesfile = /Users/vocino/.gitignore
+[push]
+	default = simple
+[user]
+	name = Travis Vocino
+	email = vocino@fb.com

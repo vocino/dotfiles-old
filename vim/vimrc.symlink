@@ -5,6 +5,8 @@ endif
 
 syntax on
 
+colorscheme tomorrow-night
+
 filetype plugin indent on
 
 set number
