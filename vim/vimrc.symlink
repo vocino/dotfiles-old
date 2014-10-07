@@ -5,7 +5,7 @@ endif
 
 syntax on
 
-colorscheme tomorrow-night
+colorscheme Tomorrow-Night
 
 filetype plugin indent on
 
