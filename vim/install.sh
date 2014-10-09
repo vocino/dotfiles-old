@@ -69,6 +69,9 @@ get_bundle bling vim-airline
 get_bundle chriskempson tomorrow-theme
 
 # git
-#get_bundle airblade vim-gitgutter
+get_bundle airblade vim-gitgutter
+
+# dash
+get_bundle rizzatti dash.vim
 
 vim -c 'call pathogen#helptags()|q'
