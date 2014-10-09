@@ -57,6 +57,9 @@ nnoremap <c-l> <c-w>l
 " [RJS] Strip whitespace on save
 autocmd FileType c,cpp,java,ruby,clojure autocmd BufWritePre <buffer> :%s/\s\+$//e
 
+" Dash.app
+:nmap <silent> <leader>d <Plug>DashSearch
+
 " sourcing .vimrc.local should ALWAYS BE LAST
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
