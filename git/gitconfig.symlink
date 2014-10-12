@@ -6,3 +6,5 @@
 [user]
 	name = Travis Vocino
 	email = vocino@fb.com
+[branch]
+	autosetuprebase = always
