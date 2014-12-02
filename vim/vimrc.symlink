@@ -25,9 +25,12 @@ set guifont=Source_Code_Pro
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 set shell=zsh
 
+set nocp
+
 augroup vimrc
   autocmd!
   autocmd GuiEnter * set columns=120 lines=70 number
+  autocmd BufWritePre * :%s/\s\+$//e
 augroup END
 
 " easy out for git_diff_wrapper
